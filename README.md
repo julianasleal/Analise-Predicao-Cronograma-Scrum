@@ -6,11 +6,6 @@ Análise e modelagem preditiva de projetos de engenharia no setor público aplic
 
 Este projeto implementa um **framework de modelagem preditiva** desenvolvido para a Comissão Regional de Obras 5 (CRO 5), adaptável a qualquer organização pública que mantenha backlog estruturado. O sistema utiliza **7 algoritmos de machine learning** para prever duração de projetos e distribuição de esforço por fase, validados com técnicas robustas para amostras pequenas.
 
-### Principais Resultados
-- ✅ Modelo de **analogia histórica (k-NN, k=3)**: melhor desempenho em previsão de duração (MAE=5,02 sprints; Q²=+0,245)
-- ✅ Modelo de **distribuição de esforço por fase (Lasso Multi-output)**: redução de 28% do erro na etapa mais complexa
-- ✅ Validação por **leave-one-out cross-validation** — protocolo adequado para datasets pequenos
-
 ---
 
 ## 🚀 Início Rápido
@@ -52,17 +47,9 @@ python analise_de_planejamento_cro_5_v1.py
 ```
 .
 ├── analise_de_planejamento_cro_5_v1.py    # Script principal de análise
-├── dashboard_projetos.html                 # Dashboard interativo de saída
-├── modelotabela.xlsx                       # Template para novos projetos
+├── modelotabela.xlsx                       # Template de dataset
 ├── Artigo-Scrum-v1.docx                    # Artigo acadêmico
 ├── README.md                               # Este arquivo
-│
-├── Referências Teóricas/
-│   ├── Citadas no artigo
-│
-└── Dados de Projetos/
-    ├── Suprimido
-```
 
 ---
 
@@ -213,7 +200,7 @@ Em contextos de **amostra pequena** (n=14), métodos tradicionais como k-fold po
 ### Fases de Projeto (ETAPAS)
 ```python
 {
-    "Estudo de Problema": ("ep_prev", "ep_exec"),
+    "Estudo Preliminar": ("ep_prev", "ep_exec"),
     "Arquitetura": ("pe_arq_prev", "pe_arq_exec"),
     "Engenharia": ("pe_eng_prev", "pe_eng_exec"),
     "Orçamento": ("orc_prev", "orc_exec")
@@ -258,17 +245,14 @@ Desenvolvido como framework de modelagem preditiva adaptável a organizações p
 ## 📞 Contato e Suporte
 
 Para dúvidas ou adaptações do framework:
-- Consulte o arquivo `Artigo-Scrum-v1.docx` para contexto acadêmico
-- Revise `Como_Elaborar_Projetos_de_Pesquisa_-_Antonio_Carlos_Gil_-_6ed.pdf` para metodologia
+- Consulte o Artigo para contexto acadêmico
 
 ---
 
 ## 🔗 Links Úteis
 
-- **Google Colab Notebook**: [Link ao notebook original](https://colab.research.google.com/drive/1OZNbRmzUL3Fnw82SO1MclF_SW8dJGBOD)
 - **Scikit-learn**: https://scikit-learn.org/
 - **Pandas Documentation**: https://pandas.pydata.org/
-- **PMBOK Guide (8ª ed.)**: Project Management Institute, 2025
 
 ---
 
