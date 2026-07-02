@@ -1,6 +1,6 @@
-# Modelagem Preditiva de Portfólio em Scrum Público
+# Modelagem Preditiva de Portfólio de Projetos de Engenharia com Gestão Ágil
 
-Análise e modelagem preditiva de projetos de engenharia no setor público aplicando metodologia Scrum.
+Análise e modelagem preditiva de projetos de engenharia no setor público aplicando a metodologia Scrum.
 
 ## 📋 Descrição
 
