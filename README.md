@@ -64,7 +64,7 @@ python analise_de_planejamento_cro_5_v1.py
 - Tratamento de valores ausentes com filtragem inteligente
 
 ### 2. **Engenharia de Features**
-Cria automaticamente 18+ novas variáveis:
+Cria automaticamente novas variáveis:
 - `duracao_dias`: duração do projeto
 - `var_pts_pct`: variação percentual de story points
 - `idx_eficiencia`: índice de eficiência
@@ -157,11 +157,10 @@ salvar_resultados(resultados, df)
 - Pipeline reproduzível de pré-processamento
 - Técnicas de feature engineering aplicadas
 - Comparação sistemática de modelos
-- Análise de importância de features (permutation importance)
 
 ---
 
-## 📚 Referências Académicas
+## 📚 Referências Acadêmicas
 
 Veja artigo para referências completas.
 
