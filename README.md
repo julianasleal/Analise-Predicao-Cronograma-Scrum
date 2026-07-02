@@ -6,6 +6,8 @@ Análise e modelagem preditiva de projetos de engenharia no setor público aplic
 
 Este projeto implementa um **framework de modelagem preditiva** desenvolvido para a Comissão Regional de Obras 5 (CRO 5), adaptável a qualquer organização pública que mantenha backlog estruturado. O sistema utiliza **7 algoritmos de machine learning** para prever duração de projetos e distribuição de esforço por fase, validados com técnicas robustas para amostras pequenas.
 
+**O artigo técnico está em processo de submissão / revisão por pares e será anexado assim que aprovado.**
+
 ---
 
 ## 🚀 Início Rápido
