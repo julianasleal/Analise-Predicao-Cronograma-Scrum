@@ -79,7 +79,7 @@ Compara 7 algoritmos de machine learning:
 - **Support Vector Regression (SVR)**
 - **Combinações (voting/stacking)**
 
-### 4. **Validação Robusta**
+### 4. **Validação**
 - **Leave-One-Out Cross-Validation (LOO-CV)**: adequado para amostras pequenas
 - Métricas: MAE, RMSE, R², Q²
 - Análise de importância de features
@@ -87,10 +87,9 @@ Compara 7 algoritmos de machine learning:
 
 ### 5. **Dashboard Interativo**
 Arquivo HTML com gráficos e resumos:
+- Predição de prazos
 - Distribuição de projetos por tipo e fase
-- Desvios de estimativa
-- Importância de features por modelo
-- Matriz de correlação
+- Comparação com análogos
 
 ---
 
@@ -161,14 +160,6 @@ salvar_resultados(resultados, df)
 ---
 
 ## 📚 Referências Académicas
-
-Este trabalho baseia-se em:
-- **Mergel et al. (2018)**: Agile government e modernização administrativa
-- **Tai & Awasthi (2025)**: Revisão sistemática de governo ágil
-- **Shepperd & Schofield (1997)**: Estimativa por analogia
-- **Kruskal & Wallis (1952)**: Testes não-paramétricos para amostras pequenas
-- **Stone (1974)**: Validação cruzada leave-one-out
-- dentre outros.
 
 Veja artigo para referências completas.
 
